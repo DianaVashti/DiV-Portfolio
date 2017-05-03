@@ -1,0 +1,42 @@
+h5 {
+  padding: 7px;
+}
+
+.avatar {
+  margin-bottom: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.bio-body-container {
+  display: flex;
+  flex-direction: row;
+  margin: 6px;
+  padding: inherit;
+  align-items: stretch;
+  justify-content: center;
+  min-width: 600px;
+	max-width: 1080px;
+	min-height: calc(690px * (90/150));
+	height: 90vh;
+	/*width: 150vh;*/
+}
+
+.bio-body-left {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: auto;
+  padding: 6px;
+  width: 50%;
+  height: auto;
+}
+
+.bio-body-right {
+  margin: auto;
+  padding: 6px;
+  border: 1px solid black;
+  background-color: GhostWhite;
+  width: 50%;
+  height: auto;
+}
