@@ -1,6 +1,6 @@
 import React, {Component}  from 'react'
 import PropTypes from 'prop-types'
-import TabsExampleSwipeable from './headerBar'
+import TabsSwipeable from './headerBar'
 
 export default class LandingPage extends Component {
   constructor() {
@@ -10,7 +10,7 @@ export default class LandingPage extends Component {
   render() {
     return (
       <div>
-        <TabsExampleSwipeable/>
+        <TabsSwipeable/>
       </div>
     )
   }

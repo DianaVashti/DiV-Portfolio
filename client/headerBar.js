@@ -1,10 +1,11 @@
 import React, {Component}  from 'react'
 import PropTypes from 'prop-types'
 import {Tabs, Tab} from 'material-ui/Tabs'
-// From https://github.com/oliviertassinari/react-swipeable-views
 import SwipeableViews from 'react-swipeable-views'
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import BioBody from './bioBody'
+import WorkBody from './WorkBody'
+import ContactBody from './contactBody'
 
 injectTapEventPlugin();
 
@@ -20,7 +21,7 @@ const styles = {
   },
 };
 
-export default class TabsExampleSwipeable extends Component {
+export default class TabsSwipeable extends Component {
 
   constructor(props) {
     super(props);
@@ -42,9 +43,9 @@ export default class TabsExampleSwipeable extends Component {
           onChange={this.handleChange}
           value={this.state.slideIndex}
         >
-          <Tab label="Tab One" value={0} />
-          <Tab label="Tab Two" value={1} />
-          <Tab label="Tab Three" value={2} />
+          <Tab label="Di Vashti" value={0} />
+          <Tab label="Work" value={1} />
+          <Tab label="Contact" value={2} />
         </Tabs>
         <SwipeableViews
           index={this.state.slideIndex}
@@ -54,10 +55,10 @@ export default class TabsExampleSwipeable extends Component {
             <BioBody/>
           </div>
           <div style={styles.slide}>
-            Slide 2
+            <WorkBody/>
           </div>
           <div style={styles.slide}>
-            slide n°3
+            <ContactBody/>
           </div>
         </SwipeableViews>
       </div>

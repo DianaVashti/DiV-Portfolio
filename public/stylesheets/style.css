@@ -2,15 +2,15 @@ h5 {
   padding: 7px;
 }
 
-.avatar {
-  margin-bottom: 200px;
-  display: flex;
-  align-items: center;
+.avatari {
+  height: 384px;
+  width: 500px;
+  border: 1px solid black;
 }
 
 .bio-body-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 6px;
   padding: inherit;
   align-items: stretch;
@@ -19,7 +19,20 @@ h5 {
 	max-width: 1080px;
 	min-height: calc(690px * (90/150));
 	height: 90vh;
-	/*width: 150vh;*/
+	width: 150vh;
+}
+
+.bio-body {
+  display: flex;
+  flex-direction: row;
+  padding: inherit;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.bio-body-title {
+  display: flex;
+  flex-direction: row;
 }
 
 .bio-body-left {
@@ -39,4 +52,9 @@ h5 {
   background-color: GhostWhite;
   width: 50%;
   height: auto;
+}
+
+.contact-body {
+  display: flex;
+  flex-direction: column;
 }
