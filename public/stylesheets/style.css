@@ -32,8 +32,8 @@ img {
   align-items: stretch;
   /*min-width: 600px;*/
 	/*max-width: 1080px;*/
-	min-height: calc(690px * (90/150));
-	height: 90vh;
+	/*min-height: calc(690px * (90/150));*/
+	/*height: 90vh;*/
 	/*width: 150vh;*/
 }
 
@@ -129,6 +129,14 @@ img {
     font-size: 2.5em;
   }
 
+}
+
+.link-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
 }
 
 .work-body {

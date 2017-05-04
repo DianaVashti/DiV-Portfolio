@@ -13,9 +13,14 @@ export default class ContactBody extends Component {
           <h3>
             Send me a message: <a href="mailto:Diana.Vashti@gmail.com">Di Vashti</a>
           </h3>
-          <h3>
-            LinkedIn:  <a href="https://www.linkedin.com/in/diana-vashti-633b48135/">lol</a>
-          </h3>
+        </div>
+        <div className="link-icons">
+          <a href="https://github.com/DianaVashti">
+            <img src="images/octocat.png" height="75" width="75"/>
+          </a>
+          <a href="https://www.linkedin.com/in/diana-vashti-633b48135/">
+            <img src="images/linkedin.png" height="80" width="80"/>
+          </a>
         </div>
       </div>
     )

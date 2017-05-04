@@ -38,6 +38,14 @@ export default class BioBody extends Component {
             </p>
           </div>
         </div>
+        <div className="link-icons">
+          <a href="https://github.com/DianaVashti">
+            <img src="images/octocat.png" height="75" width="75"/>
+          </a>
+          <a href="https://www.linkedin.com/in/diana-vashti-633b48135/">
+            <img src="images/linkedin.png" height="80" width="80"/>
+          </a>
+        </div>
       </div>
     )
   }

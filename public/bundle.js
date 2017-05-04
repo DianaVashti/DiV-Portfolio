@@ -42247,6 +42247,20 @@
 	              'With 11 months of 40+ hours a week in an intensive full-stack Node.js JavaScript software engineering program behind me I am looking to begin my career as a developer. I like complicated schemas, algorithms, file structuring, debugging, and making things work. Whether you are looking for someone to help you build a bunch of new things or maintain a massive application, I am the droid you are looking for (especially if it\'s a Junior-level full-stack position, double-especially if it uses the following technologies/frameworks: React, PostgreSQL, Express)'
 	            )
 	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'link-icons' },
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://github.com/DianaVashti' },
+	            _react2.default.createElement('img', { src: 'images/octocat.png', height: '75', width: '75' })
+	          ),
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://www.linkedin.com/in/diana-vashti-633b48135/' },
+	            _react2.default.createElement('img', { src: 'images/linkedin.png', height: '80', width: '80' })
+	          )
 	        )
 	      );
 	    }
@@ -42491,16 +42505,20 @@
 	              { href: 'mailto:Diana.Vashti@gmail.com' },
 	              'Di Vashti'
 	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'link-icons' },
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://github.com/DianaVashti' },
+	            _react2.default.createElement('img', { src: 'images/octocat.png', height: '75', width: '75' })
 	          ),
 	          _react2.default.createElement(
-	            'h3',
-	            null,
-	            'LinkedIn:  ',
-	            _react2.default.createElement(
-	              'a',
-	              { href: 'https://www.linkedin.com/in/diana-vashti-633b48135/' },
-	              'lol'
-	            )
+	            'a',
+	            { href: 'https://www.linkedin.com/in/diana-vashti-633b48135/' },
+	            _react2.default.createElement('img', { src: 'images/linkedin.png', height: '80', width: '80' })
 	          )
 	        )
 	      );
