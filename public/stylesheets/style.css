@@ -1,5 +1,6 @@
-h5 {
-  padding: 7px;
+body {
+  font-family: "Lucida Console", Monaco, monospace;
+  color: #37474F;
 }
 
 .avatari {
@@ -26,13 +27,14 @@ h5 {
   display: flex;
   flex-direction: row;
   padding: inherit;
-  align-items: stretch;
+  align-items: center;
   justify-content: center;
 }
 
 .bio-body-title {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .bio-body-left {
@@ -47,7 +49,7 @@ h5 {
 
 .bio-body-right {
   margin: auto;
-  padding: 6px;
+  padding: 9px;
   border: 1px solid black;
   background-color: GhostWhite;
   width: 50%;
@@ -57,4 +59,29 @@ h5 {
 .contact-body {
   display: flex;
   flex-direction: column;
+}
+
+.work-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 1.2em;
+  font-family: "Lucida Console", Monaco, monospace;
 }

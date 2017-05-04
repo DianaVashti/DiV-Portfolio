@@ -4,7 +4,7 @@
   "description": "Portfolio For Di Vashti",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "node --inspect ./bin/www",
     "start:dev": "nodemon ./bin/www --exec babel-node",
     "build": "./node_modules/.bin/webpack -d",
     "test": "echo \"Error: no test specified\" && exit 1"
