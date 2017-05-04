@@ -8,7 +8,7 @@ export default class ContactBody extends Component {
 
   render() {
     return (
-      <div className="contact-body-container">
+      <div className="contact-body-container container">
         <div className="contact-body">
           <h3>
             Send me a message: <a href="mailto:Diana.Vashti@gmail.com">Di Vashti</a>

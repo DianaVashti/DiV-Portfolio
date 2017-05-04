@@ -42192,7 +42192,7 @@
 	          'div',
 	          { className: 'bio-body-title' },
 	          _react2.default.createElement(
-	            'h1',
+	            'p',
 	            null,
 	            ' Hi, I\'m Di! '
 	          ),
@@ -42219,12 +42219,12 @@
 	            { className: 'bio-body-left' },
 	            _react2.default.createElement('img', { className: 'Avatari', src: 'images/IloveThisPic.jpg' }),
 	            _react2.default.createElement(
-	              'h2',
+	              'p',
 	              null,
 	              ' I am a carbon-based Earth-imprisoned femme-forward lifeform. '
 	            ),
 	            _react2.default.createElement(
-	              'h4',
+	              'p',
 	              null,
 	              'Lvl. 11 Software Sorceress, Druid of Data Divination, Back-end Node.js Bard, Algorithm Alchemist, React.js Rogue'
 	            )
@@ -42233,7 +42233,7 @@
 	            'div',
 	            { className: 'bio-body-right' },
 	            _react2.default.createElement(
-	              'h3',
+	              'p',
 	              null,
 	              'With 11 months of 40+ hours a week in an intensive full-stack Node.js JavaScript software engineering program behind me I am looking to begin my career as a developer. I like complicated schemas, algorithms, file structuring, debugging, and making things work. Whether you are looking for someone to help you build a bunch of new things or maintain a massive application, I am the droid you are looking for (especially if it\'s a Junior-level full-stack position, double-especially if it uses the following technologies/frameworks: React, PostgreSQL, Express)'
 	            )
@@ -42469,7 +42469,7 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        { className: 'contact-body-container' },
+	        { className: 'contact-body-container container' },
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'contact-body' },

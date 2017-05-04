@@ -1,13 +1,24 @@
 body {
   font-family: "Lucida Console", Monaco, monospace;
   color: #37474F;
+  font-size: .86em;
+  overflow-y: scroll;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
 }
 
 .avatari {
   height: 384px;
   width: 500px;
   border: 1px solid black;
-  overflow-y: scroll;
+}
+
+.container {
+	width: 1350px;
+	max-width: 90%;
 }
 
 .bio-body-container {
@@ -16,15 +27,15 @@ body {
   margin: 6px;
   padding: inherit;
   align-items: stretch;
-  justify-content: center;
+  /*justify-content: center;*/
   /*min-width: 600px;*/
-	max-width: 1080px;
+	/*max-width: 1080px;*/
 	min-height: calc(690px * (90/150));
 	height: 90vh;
-	width: 150vh;
+	/*width: 150vh;*/
 }
 
-@media (min-width: 600px){
+@media (min-width: 1320px){
   .bio-body {
     display: flex;
     flex-direction: row;
@@ -32,15 +43,51 @@ body {
     align-items: center;
     justify-content: center;
   }
+
+  .bio-body-left {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 15px;
+    padding: 6px;
+    width: 50%;
+    height: auto;
+  }
+
+  .bio-body-right {
+    margin: 15px;
+    padding: 9px;
+    border: 1px solid black;
+    background-color: GhostWhite;
+    width: 50%;
+    height: auto;
+  }
 }
 
-@media (max-width: 600px){
+@media (max-width: 1319px){
   .bio-body {
     display: flex;
     flex-direction: column;
     padding: inherit;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .bio-body-left {
     align-items: center;
     justify-content: center;
+    margin: 12x;
+    padding: 6px;
+    width: 90%;
+  }
+
+  .bio-body-right {
+    margin: 12px;
+    padding: 9px;
+    border: 1px solid black;
+    background-color: GhostWhite;
+    width: 90%;
   }
 }
 
@@ -48,25 +95,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-.bio-body-left {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  margin: auto;
-  padding: 6px;
-  width: 50%;
-  height: auto;
-}
-
-.bio-body-right {
-  margin: auto;
-  padding: 9px;
-  border: 1px solid black;
-  background-color: GhostWhite;
-  width: 50%;
-  height: auto;
 }
 
 .contact-body {
