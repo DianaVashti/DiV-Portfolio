@@ -42324,18 +42324,9 @@
 	            'div',
 	            null,
 	            _react2.default.createElement(
-	              'h3',
+	              'h2',
 	              null,
-	              'In the last 30 weeks I have had the opportunity to do stuff. Some of it was pretty cool. Here are a few of the things I really had a lot of fun working on'
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            null,
-	            _react2.default.createElement(
-	              'h4',
-	              null,
-	              'Stuff and more Stuff'
+	              'Here are a few examples of what I have learned the last 30 weeks.'
 	            )
 	          )
 	        ),
@@ -42346,19 +42337,24 @@
 	            'div',
 	            { className: 'item' },
 	            _react2.default.createElement(
-	              'p',
-	              null,
-	              'Title \u2022 Link'
+	              'a',
+	              { href: 'https://github.com/DianaVashti/coach-que' },
+	              ' Coach-Queue \u2022 Learners\'s Guild '
 	            ),
 	            _react2.default.createElement(
 	              'p',
 	              null,
-	              'Description of the pproject'
+	              'Coach-Queue is an open-source application used at Learner\'s Guild to assist learners in requested help from the coaches. I spent 4 weeks taking issues/tickets deploying features and bug-fixes that were lauched to production. '
+	            ),
+	            _react2.default.createElement(
+	              'a',
+	              { href: 'https://github.com/GuildCrafts/coach-queue/pull/202' },
+	              'Click here for a link to an example PR'
 	            ),
 	            _react2.default.createElement(
 	              'p',
 	              null,
-	              'Tags'
+	              ' Node.js, React, Knex, PostgreSQL, Socket.io '
 	            )
 	          ),
 	          _react2.default.createElement(
