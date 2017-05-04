@@ -1,11 +1,14 @@
 {
   "name": "div_portfolio",
   "version": "1.0.0",
+  "engines": {
+    "node": "7.x"
+  },
   "description": "Portfolio For Di Vashti",
   "main": "index.js",
   "scripts": {
-    "start": "node --inspect ./bin/www",
-    "start:dev": "nodemon ./bin/www --exec babel-node",
+    "start": "nodemon ./bin/www --exec babel-node",
+    "start:dev": "./node_modules/.bin/webpack -d && nodemon ./bin/www --exec babel-node",
     "build": "./node_modules/.bin/webpack -d",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
