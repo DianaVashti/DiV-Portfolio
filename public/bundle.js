@@ -42207,7 +42207,7 @@
 	            _react2.default.createElement(
 	              'a',
 	              { href: 'https://www.linkedin.com/in/diana-vashti-633b48135/' },
-	              _react2.default.createElement('img', { src: 'images/linkedin.png', height: '42', width: '42' })
+	              _react2.default.createElement('img', { src: 'images/linkedin.png', height: '47', width: '47' })
 	            )
 	          )
 	        ),
@@ -42217,16 +42217,24 @@
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'bio-body-left' },
-	            _react2.default.createElement('img', { className: 'Avatari', src: 'images/IloveThisPic.jpg' }),
 	            _react2.default.createElement(
-	              'p',
+	              'div',
 	              null,
-	              ' I am a carbon-based Earth-imprisoned femme-forward lifeform. '
+	              _react2.default.createElement('img', { className: 'Avatari', src: 'images/IloveThisPic.jpg' })
 	            ),
 	            _react2.default.createElement(
-	              'p',
+	              'div',
 	              null,
-	              'Lvl. 11 Software Sorceress, Druid of Data Divination, Back-end Node.js Bard, Algorithm Alchemist, React.js Rogue'
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                ' I am a carbon-based Earth-imprisoned femme-forward lifeform. '
+	              ),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                'Lvl. 11 Software Sorceress, Druid of Data Divination, Back-end Node.js Bard, Algorithm Alchemist, React.js Rogue'
+	              )
 	            )
 	          ),
 	          _react2.default.createElement(

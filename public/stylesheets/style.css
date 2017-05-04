@@ -3,6 +3,7 @@ body {
   color: #37474F;
   font-size: .86em;
   overflow-y: scroll;
+  height: auto;
 }
 
 img {
@@ -89,6 +90,8 @@ img {
     background-color: GhostWhite;
     width: 90%;
   }
+
+  .Avatar 
 }
 
 .bio-body-title {
