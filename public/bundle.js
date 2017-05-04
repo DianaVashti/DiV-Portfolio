@@ -42219,12 +42219,12 @@
 	            { className: 'bio-body-left' },
 	            _react2.default.createElement(
 	              'div',
-	              null,
+	              { className: 'Avatar' },
 	              _react2.default.createElement('img', { className: 'Avatari', src: 'images/IloveThisPic.jpg' })
 	            ),
 	            _react2.default.createElement(
 	              'div',
-	              null,
+	              { className: 'lefty' },
 	              _react2.default.createElement(
 	                'p',
 	                null,
