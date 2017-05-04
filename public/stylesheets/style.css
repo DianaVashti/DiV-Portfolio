@@ -3,6 +3,9 @@ body {
   color: #37474F;
   overflow-y: scroll;
   height: auto;
+  background-image: url("../images/crumpledpaper.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 img {
@@ -34,7 +37,8 @@ img {
 	/*width: 150vh;*/
 }
 
-@media (min-width: 1320px){
+@media (min-width: 1300px){
+
   .bio-body {
     display: flex;
     flex-direction: row;
@@ -71,9 +75,16 @@ img {
     text-decoration: underline;
   }
 
+  .contact-body {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.7em;
+  }
+
 }
 
-@media (max-width: 1319px){
+@media (max-width: 1299px){
+
   .bio-body {
     display: flex;
     flex-direction: column;
@@ -111,13 +122,13 @@ img {
     font-size: 2em;
     text-decoration: underline;
   }
-}
 
+  .contact-body {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5em;
+  }
 
-.contact-body {
-  display: flex;
-  flex-direction: column;
-  font-size: 1.7em;
 }
 
 .work-body {
@@ -143,5 +154,4 @@ img {
   align-items: center;
   padding: 10px;
   font-size: 1.2em;
-  font-family: "Lucida Console", Monaco, monospace;
 }
