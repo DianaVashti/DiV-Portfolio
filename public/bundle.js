@@ -42202,7 +42202,7 @@
 	            _react2.default.createElement(
 	              'a',
 	              { href: 'https://github.com/DianaVashti' },
-	              _react2.default.createElement('img', { src: 'images/Github-Mark.png', height: '42', width: '42' })
+	              _react2.default.createElement('img', { src: 'images/GithubMark.png', height: '42', width: '42' })
 	            ),
 	            _react2.default.createElement(
 	              'a',

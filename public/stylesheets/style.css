@@ -7,6 +7,7 @@ body {
   height: 384px;
   width: 500px;
   border: 1px solid black;
+  overflow-y: scroll;
 }
 
 .bio-body-container {
@@ -16,19 +17,31 @@ body {
   padding: inherit;
   align-items: stretch;
   justify-content: center;
-  min-width: 600px;
+  /*min-width: 600px;*/
 	max-width: 1080px;
 	min-height: calc(690px * (90/150));
 	height: 90vh;
 	width: 150vh;
 }
 
-.bio-body {
-  display: flex;
-  flex-direction: row;
-  padding: inherit;
-  align-items: center;
-  justify-content: center;
+@media (min-width: 600px){
+  .bio-body {
+    display: flex;
+    flex-direction: row;
+    padding: inherit;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px){
+  .bio-body {
+    display: flex;
+    flex-direction: column;
+    padding: inherit;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .bio-body-title {

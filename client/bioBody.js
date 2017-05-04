@@ -13,7 +13,7 @@ export default class BioBody extends Component {
           <h1> Hi, I'm Di! </h1>
           <div>
             <a href="https://github.com/DianaVashti">
-              <img src="images/Github-Mark.png" height="42" width="42" />
+              <img src="images/GithubMark.png" height="42" width="42" />
             </a>
             <a href="https://www.linkedin.com/in/diana-vashti-633b48135/">
               <img src="images/linkedin.png" height="42" width="42" />
