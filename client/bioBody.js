@@ -16,17 +16,21 @@ export default class BioBody extends Component {
               <img src="images/GithubMark.png" height="42" width="42" />
             </a>
             <a href="https://www.linkedin.com/in/diana-vashti-633b48135/">
-              <img src="images/linkedin.png" height="42" width="42" />
+              <img src="images/linkedin.png" height="47" width="47" />
             </a>
           </div>
         </div>
         <div className="bio-body">
           <div className="bio-body-left">
-            <img className="Avatari" src="images/IloveThisPic.jpg" />
-            <p> I am a carbon-based Earth-imprisoned femme-forward lifeform. </p>
-            <p>
-              Lvl. 11 Software Sorceress, Druid of Data Divination, Back-end Node.js Bard, Algorithm Alchemist, React.js Rogue
-            </p>
+            <div className="Avatar">
+              <img className="Avatari" src="images/IloveThisPic.jpg" />
+            </div>
+            <div className="lefty">
+              <p> I am a carbon-based Earth-imprisoned femme-forward lifeform. </p>
+              <p>
+                Lvl. 11 Software Sorceress, Druid of Data Divination, Back-end Node.js Bard, Algorithm Alchemist, React.js Rogue
+              </p>
+            </div>
           </div>
           <div className="bio-body-right">
             <p>

@@ -1,8 +1,8 @@
 body {
   font-family: "Lucida Console", Monaco, monospace;
   color: #37474F;
-  font-size: .86em;
   overflow-y: scroll;
+  height: auto;
 }
 
 img {
@@ -42,6 +42,7 @@ img {
     padding: inherit;
     align-items: center;
     justify-content: center;
+    height: 90vh;
   }
 
   .bio-body-left {
@@ -62,6 +63,17 @@ img {
     width: 50%;
     height: auto;
   }
+
+  .bio-body-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 35px;
+    margin-bottom: 25px;
+    font-size: 1.25em;
+  }
+
 }
 
 @media (max-width: 1319px){
@@ -69,9 +81,9 @@ img {
     display: flex;
     flex-direction: column;
     padding: inherit;
-    margin: auto;
     align-items: center;
     justify-content: space-between;
+    font-size: 1.7em;
   }
 
   .bio-body-left {
@@ -80,6 +92,7 @@ img {
     margin: 12x;
     padding: 6px;
     width: 90%;
+    font-size: .65em;
   }
 
   .bio-body-right {
@@ -88,14 +101,19 @@ img {
     border: 1px solid black;
     background-color: GhostWhite;
     width: 90%;
+    font-size: .5em;
+  }
+
+  .bio-body-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 35px;
+    font-size: 2em;
   }
 }
 
-.bio-body-title {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
 
 .contact-body {
   display: flex;
