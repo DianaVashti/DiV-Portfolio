@@ -8,6 +8,14 @@ body {
   background-repeat: no-repeat;
 }
 
+a {
+  color: #37474F
+}
+
+a:hover {
+  color: black;
+}
+
 img {
 	max-width: 100%;
 	height: auto;
@@ -30,11 +38,6 @@ img {
   flex-direction: column;
   margin: 6px;
   align-items: stretch;
-  /*min-width: 600px;*/
-	/*max-width: 1080px;*/
-	min-height: calc(690px * (90/150));
-	height: 90vh;
-	/*width: 150vh;*/
 }
 
 @media (min-width: 1300px){
@@ -131,6 +134,14 @@ img {
 
 }
 
+.link-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+}
+
 .work-body {
   display: flex;
   flex-direction: column;
@@ -152,6 +163,9 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 90%;
+  margin: 5px;
   padding: 10px;
   font-size: 1.2em;
+  border: 1px solid black;
 }
