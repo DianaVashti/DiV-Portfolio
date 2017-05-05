@@ -34,7 +34,7 @@ export default class BioBody extends Component {
           </div>
           <div className="bio-body-right">
             <p>
-              With 11 months of 40+ hours a week in an intensive full-stack Node.js JavaScript software engineering program behind me I am looking to begin my career as a developer. I like complicated schemas, algorithms, file structuring, debugging, and making things work. Whether you are looking for someone to help you build a bunch of new things or maintain a massive application, I am the droid you are looking for (especially if it's a Junior-level full-stack position, double-especially if it uses the following technologies/frameworks: React, PostgreSQL, Express)
+              With 9 months of 40+ hours a week in an intensive full-stack Node.js JavaScript software engineering program behind me I am looking to begin my career as a developer. I like complicated schemas, algorithms, file structuring, debugging, and making things work. Whether you are looking for someone to help you build a bunch of new things or maintain a massive application, I am the droid you are looking for (especially if it's a Junior-level full-stack position, double-especially if it uses the following technologies/frameworks: React, PostgreSQL, Express)
             </p>
           </div>
         </div>
