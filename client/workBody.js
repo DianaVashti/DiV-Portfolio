@@ -24,24 +24,10 @@ export default class WorkBody extends Component {
             <p> Node.js, React, Knex, PostgreSQL, Socket.io </p>
           </div>
           <div className="item">
-            <p>Title • Link</p>
-            <p>Description of the pproject</p>
-            <p>Tags</p>
-          </div>
-          <div className="item">
-            <p>Title • Link</p>
-            <p>Description of the pproject</p>
-            <p>Tags</p>
-          </div>
-          <div className="item">
-            <p>Title • Link</p>
-            <p>Description of the pproject</p>
-            <p>Tags</p>
-          </div>
-          <div className="item">
-            <p>Title • Link</p>
-            <p>Description of the pproject</p>
-            <p>Tags</p>
+            <a href="https://github.com/DianaVashti/blackjack-console-game"> Terminal BlackJack • Di Vashti </a>
+            <p>In my second week at Learner's Guild I built this BlackJack game that runs in the terminal/shell. I also created a rubric and specs so that other learners could take on this project as a goal to focus on their vanilla JavaScript.</p>
+            <p>Node.js, Vanilla JavaScript</p>
+            <img className="Avatari" src="images/blackjack.png" />
           </div>
         </div>
       </div>
