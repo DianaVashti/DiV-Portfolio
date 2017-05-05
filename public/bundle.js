@@ -42361,77 +42361,21 @@
 	            'div',
 	            { className: 'item' },
 	            _react2.default.createElement(
-	              'p',
-	              null,
-	              'Title \u2022 Link'
+	              'a',
+	              { href: 'https://github.com/DianaVashti/blackjack-console-game' },
+	              ' Terminal BlackJack \u2022 Di Vashti '
 	            ),
 	            _react2.default.createElement(
 	              'p',
 	              null,
-	              'Description of the pproject'
+	              'In my second week at Learner\'s Guild I built this BlackJack game that runs in the terminal/shell. I also created a rubric and specs so that other learners could take on this project as a goal to focus on their vanilla JavaScript.'
 	            ),
 	            _react2.default.createElement(
 	              'p',
 	              null,
-	              'Tags'
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'item' },
-	            _react2.default.createElement(
-	              'p',
-	              null,
-	              'Title \u2022 Link'
+	              'Node.js, Vanilla JavaScript'
 	            ),
-	            _react2.default.createElement(
-	              'p',
-	              null,
-	              'Description of the pproject'
-	            ),
-	            _react2.default.createElement(
-	              'p',
-	              null,
-	              'Tags'
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'item' },
-	            _react2.default.createElement(
-	              'p',
-	              null,
-	              'Title \u2022 Link'
-	            ),
-	            _react2.default.createElement(
-	              'p',
-	              null,
-	              'Description of the pproject'
-	            ),
-	            _react2.default.createElement(
-	              'p',
-	              null,
-	              'Tags'
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'item' },
-	            _react2.default.createElement(
-	              'p',
-	              null,
-	              'Title \u2022 Link'
-	            ),
-	            _react2.default.createElement(
-	              'p',
-	              null,
-	              'Description of the pproject'
-	            ),
-	            _react2.default.createElement(
-	              'p',
-	              null,
-	              'Tags'
-	            )
+	            _react2.default.createElement('img', { className: 'Avatari', src: 'images/blackjack.png' })
 	          )
 	        )
 	      );
