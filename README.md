@@ -3,9 +3,9 @@
 This is a static portfolio website built with React, Webpack, and MaterialUI,
 as well as a mobile-responsive single page app with swipe-able views.
 
-Team-Name: accessible-sandgrouse
-Learners: DianaVashti
-Goal #356: Portfolio Site
+- Team-Name: accessible-sandgrouse
+- Learners: DianaVashti
+- Goal #356: Portfolio Site
 
 Terminal commands:
 - npm i : install dependencies
