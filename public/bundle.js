@@ -42375,7 +42375,7 @@
 	              null,
 	              'Node.js, Vanilla JavaScript'
 	            ),
-	            _react2.default.createElement('img', { className: 'Avatari', src: 'images/blackjack.png' })
+	            _react2.default.createElement('img', { className: 'screenshots', src: 'images/blackjack.png' })
 	          )
 	        )
 	      );

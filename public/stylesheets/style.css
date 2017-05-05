@@ -37,6 +37,12 @@ img {
 
 @media only screen and (min-width: 10px) and (max-width: 640px){
 
+  .screenshots {
+    width: 80%
+    height: auto;
+    border: 1px solid black;
+  }
+
   .avatari {
     width: 80%
     height: auto;
@@ -87,6 +93,12 @@ img {
 }
 
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
+
+  .screenshots {
+    width: 80%
+    height: auto;
+    border: 1px solid black;
+  }
 
   .avatari {
     height: 315px;
@@ -140,6 +152,12 @@ img {
 }
 
 @media only screen and (min-width: 1025px){
+
+  .screenshots {
+    width: 80%
+    height: auto;
+    border: 1px solid black;
+  }
 
   .avatari {
     height: 315px;
