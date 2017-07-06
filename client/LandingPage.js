@@ -1,6 +1,7 @@
 import React, {Component}  from 'react'
 import PropTypes from 'prop-types'
-import TabsSwipeable from './headerBar'
+import HeaderBar from './headerBar'
+import DeskTopMain from './deskTopMain'
 
 export default class LandingPage extends Component {
   constructor() {
@@ -9,8 +10,9 @@ export default class LandingPage extends Component {
 
   render() {
     return (
-      <div>
-        <TabsSwipeable/>
+      <div className="grad">
+        <HeaderBar/>
+        <DeskTopMain/>
       </div>
     )
   }

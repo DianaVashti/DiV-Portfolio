@@ -2,12 +2,10 @@ import React, {Component}  from 'react'
 import PropTypes from 'prop-types'
 import {Tabs, Tab} from 'material-ui/Tabs'
 import SwipeableViews from 'react-swipeable-views'
-import injectTapEventPlugin from 'react-tap-event-plugin';
 import BioBody from './bioBody'
 import WorkBody from './WorkBody'
 import ContactBody from './contactBody'
 
-injectTapEventPlugin();
 
 const styles = {
   headline: {
@@ -22,7 +20,7 @@ const styles = {
   },
 };
 
-export default class TabsSwipeable extends Component {
+export default class HeaderBar extends Component {
 
   constructor(props) {
     super(props);
@@ -39,7 +37,7 @@ export default class TabsSwipeable extends Component {
 
   render() {
     return (
-      <div>
+      <div className="mobile">
         <Tabs
           onChange={this.handleChange}
           value={this.state.slideIndex}
