@@ -7,7 +7,7 @@
   "description": "Portfolio For Di Vashti",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./bin/www --exec babel-node",
+    "start": "node ./bin/www --exec babel-node",
     "start:dev": "./node_modules/.bin/webpack -d && nodemon ./bin/www --exec babel-node",
     "watch": "./node_modules/.bin/webpack --watch",
     "build": "./node_modules/.bin/webpack -d",
