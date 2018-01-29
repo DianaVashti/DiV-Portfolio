@@ -41,22 +41,37 @@ export default class HeaderBar extends Component {
           onChange={this.handleChange}
           value={this.state.slideIndex}
         >
-          <Tab label="BDL App" value={0} />
-          <Tab label="React Boilerplate" value={1} />
-          <Tab label="Black Jack" value={2} />
+          <Tab label="bdl app" value={0} />
+          <Tab label="this.app" value={1} />
+          <Tab label="blackjack" value={2} />
         </Tabs>
         <SwipeableViews
           index={this.state.slideIndex}
           onChangeIndex={this.handleChange}
         >
+        <div style={styles.slide}>
+          <div className="item">
+            <a href="http://stjamesbaddatelist.herokuapp.com/"> Bad Date List • Di Vashti </a>
+            <p>Node.js, React, MongoDB, Material-UI, Express</p>
+            <img className="screenshots" src="images/bdl.png" />
+            <a href="https://github.com/DianaVashti/BDL-DEV-Client/">Link to Client Repo</a>
+            <a href="https://github.com/DianaVashti/sji-bdl-api">Link to API Repo</a>
+          </div>
+        </div>
           <div style={styles.slide}>
-            <h1>BDL App</h1>
+            <div className="item">
+              <a href="https://github.com/DianaVashti/react-webpack-materialui-boilerplate"> Boilerplate • Di Vashti </a>
+              <p>This single page app was built from a boilerplate I made for public use.</p>
+              <img className="screenshots" src="images/portfolio.png" />
+              <a href="https://github.com/DianaVashti/DiV-Portfolio">Link to this.repo</a>
+            </div>
           </div>
           <div style={styles.slide}>
-            <h1>React Boilerplate</h1>
-          </div>
-          <div style={styles.slide}>
-            <h1>Blackjack</h1>
+            <div className="item">
+              <a href="https://github.com/DianaVashti/console-strip-blackjack"> Strip BlackJack • Di Vashti </a>
+              <p>Node.js, Vanilla JavaScript</p>
+              <img className="screenshots" src="images/blackjack.png" />
+            </div>
           </div>
         </SwipeableViews>
       </div>
