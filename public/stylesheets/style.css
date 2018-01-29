@@ -1,15 +1,32 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+
 body {
   font-family: "Lucida Console", Monaco, monospace;
-  color: #37474F;
+  color: GhostWhite;
   overflow-y: scroll;
   height: auto;
-  background-image: url("../images/crumpledpaper.jpg");
+  /* background-image: url("../images/crumple.jpg"); */
+  background-color: #303030;
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
+.bio-body-right {
+  color: #303030;
+}
+
 a {
-  color: #37474F
+  color: GhostWhite;
 }
 
 a:hover {
@@ -19,6 +36,31 @@ a:hover {
 img {
 	max-width: 100%;
 	height: auto;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
 }
 
 .container {
@@ -34,6 +76,18 @@ img {
   align-items: stretch;
 }
 
+.main-body {
+  padding-bottom: 80px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
 
 @media only screen and (min-width: 10px) and (max-width: 640px){
 
@@ -72,7 +126,7 @@ img {
     margin-left: 12px;
     padding: 9px;
     border: 1px solid black;
-    background-color: GhostWhite;
+    background-color: #1697a6;
     width: 98%;
     font-size: .6em;
   }
@@ -129,7 +183,7 @@ img {
     margin-left: 12px;
     padding: 9px;
     border: 1px solid black;
-    background-color: GhostWhite;
+    background-color: #1697a6;
     width: 98%;
     font-size: .65em;
   }
@@ -141,7 +195,6 @@ img {
     justify-content: space-between;
     margin-left: 35px;
     font-size: 2em;
-    text-decoration: underline;
   }
 
   .contact-body {
@@ -185,7 +238,7 @@ img {
   .bio-body-right {
     padding: 9px;
     border: 1px solid black;
-    background-color: GhostWhite;
+    background-color: #1697a6;
     width: 60%;
     height: auto;
     font-size: .85em;
@@ -198,7 +251,6 @@ img {
     justify-content: space-between;
     margin-left: 35px;
     font-size: 1.51em;
-    text-decoration: underline;
   }
 
   .contact-body {
