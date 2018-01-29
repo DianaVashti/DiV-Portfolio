@@ -9,6 +9,7 @@
   "scripts": {
     "start": "nodemon ./bin/www --exec babel-node",
     "start:dev": "./node_modules/.bin/webpack -d && nodemon ./bin/www --exec babel-node",
+    "watch": "./node_modules/.bin/webpack --watch",
     "build": "./node_modules/.bin/webpack -d",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -32,6 +33,7 @@
     "express": "~4.14.0",
     "html-webpack-plugin": "~2.24.1",
     "json-loader": "^0.5.4",
+    "material-design-icons": "^3.0.1",
     "material-ui": "^0.16.4",
     "mocha": "~3.2.0",
     "moment": "^2.17.1",
