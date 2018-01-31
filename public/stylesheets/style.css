@@ -91,6 +91,10 @@ img {
 
 @media only screen and (min-width: 10px) and (max-width: 640px){
 
+  .desktop-version {
+    display: none;
+  }
+
   .screenshots {
     width: 80%
     height: auto;
@@ -147,6 +151,15 @@ img {
 }
 
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
+
+  .mobile-version {
+    display: none;
+  }
+
+  .two-columns {
+    display: flex;
+    flex-direction: column;
+  }
 
   .screenshots {
     width: 80%
@@ -205,6 +218,15 @@ img {
 }
 
 @media only screen and (min-width: 1025px){
+
+  .mobile-version {
+    display: none;
+  }
+
+  .two-columns {
+    display: flex;
+    flex-direction: column;
+  }
 
   .screenshots {
     width: 80%

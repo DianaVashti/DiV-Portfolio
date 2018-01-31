@@ -19,7 +19,7 @@ const styles = {
   },
 };
 
-export default class HeaderBar extends Component {
+export default class WorkBody extends Component {
 
   constructor(props) {
     super(props);
