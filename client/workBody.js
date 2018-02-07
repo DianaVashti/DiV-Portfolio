@@ -53,6 +53,9 @@ export default class WorkBody extends Component {
           <div className="item">
             <a href="http://stjamesbaddatelist.herokuapp.com/"> Bad Date List • Di Vashti </a>
             <p>Node.js, React, MongoDB, Material-UI, Express</p>
+            <p>
+              In June 2016 myself and one other person received a grant to build an application for St. James Infirmary, with an MVP delivered in 5 weeks. We handled all aspects of the build from design to deploy and made deadline. This app is currently live with active users.
+            </p>
             <img className="screenshots" src="images/bdl.png" />
             <a href="https://github.com/DianaVashti/BDL-DEV-Client/">Link to Client Repo</a>
             <a href="https://github.com/DianaVashti/sji-bdl-api">Link to API Repo</a>
@@ -61,7 +64,7 @@ export default class WorkBody extends Component {
           <div style={styles.slide}>
             <div className="item">
               <a href="https://github.com/DianaVashti/react-webpack-materialui-boilerplate"> Boilerplate • Di Vashti </a>
-              <p>This single page app was built from a boilerplate I made for public use.</p>
+              <p>This single page app was built from a boilerplate I made for public use. I built it in part for other new devs to have a pre-configured playground to start learning React as well as a chance to dig deeper in to webpack and React-router. </p>
               <img className="screenshots" src="images/portfolio.png" />
               <a href="https://github.com/DianaVashti/DiV-Portfolio">Link to this.repo</a>
             </div>
@@ -70,6 +73,7 @@ export default class WorkBody extends Component {
             <div className="item">
               <a href="https://github.com/DianaVashti/console-strip-blackjack"> Strip BlackJack • Di Vashti </a>
               <p>Node.js, Vanilla JavaScript</p>
+              <p>This is a pre JavaScript console blackjack simulation with a twist; When you run out of $ you spend your clothes.</p>
               <img className="screenshots" src="images/blackjack.png" />
             </div>
           </div>
