@@ -5,7 +5,7 @@ import IconLocationOn from 'material-ui/svg-icons/communication/location-on';
 import FontIcon from 'material-ui/FontIcon';
 import Paper from 'material-ui/Paper';
 import BioBody from './bioBody';
-import HeaderBar from './headerBar';
+import WorkBody from './workBody';
 import ContactBody from './contactBody'
 const recentsIcon = <FontIcon className="material-icons">gamepad</FontIcon>;
 const favoritesIcon = <FontIcon className="material-icons">brush</FontIcon>;

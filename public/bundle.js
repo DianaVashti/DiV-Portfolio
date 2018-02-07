@@ -35902,9 +35902,9 @@
 	
 	var _bioBody2 = _interopRequireDefault(_bioBody);
 	
-	var _headerBar = __webpack_require__(/*! ./headerBar */ 439);
+	var _workBody = __webpack_require__(/*! ./workBody */ 439);
 	
-	var _headerBar2 = _interopRequireDefault(_headerBar);
+	var _workBody2 = _interopRequireDefault(_workBody);
 	
 	var _contactBody = __webpack_require__(/*! ./contactBody */ 477);
 	
@@ -35961,7 +35961,7 @@
 	        if (_this2.state.selectedIndex === 0) {
 	          return _react2.default.createElement(_bioBody2.default, null);
 	        } else if (_this2.state.selectedIndex === 1) {
-	          return _react2.default.createElement(_headerBar2.default, null);
+	          return _react2.default.createElement(_workBody2.default, null);
 	        } else if (_this2.state.selectedIndex === 2) {
 	          return _react2.default.createElement(_contactBody2.default, null);
 	        }
@@ -35972,41 +35972,50 @@
 	        null,
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'main-body' },
-	          comp()
+	          { className: 'mobile-version' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'main-body' },
+	            comp()
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            null,
+	            _react2.default.createElement(
+	              _Paper2.default,
+	              { zDepth: 1, className: 'footer' },
+	              _react2.default.createElement(
+	                _BottomNavigation.BottomNavigation,
+	                { selectedIndex: this.state.selectedIndex },
+	                _react2.default.createElement(_BottomNavigation.BottomNavigationItem, {
+	                  label: 'Bio',
+	                  icon: recentsIcon,
+	                  onClick: function onClick() {
+	                    return _this2.select(0);
+	                  }
+	                }),
+	                _react2.default.createElement(_BottomNavigation.BottomNavigationItem, {
+	                  label: 'Work',
+	                  icon: favoritesIcon,
+	                  onClick: function onClick() {
+	                    return _this2.select(1);
+	                  }
+	                }),
+	                _react2.default.createElement(_BottomNavigation.BottomNavigationItem, {
+	                  label: 'Contact',
+	                  icon: nearbyIcon,
+	                  onClick: function onClick() {
+	                    return _this2.select(2);
+	                  }
+	                })
+	              )
+	            )
+	          )
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          null,
-	          _react2.default.createElement(
-	            _Paper2.default,
-	            { zDepth: 1, className: 'footer' },
-	            _react2.default.createElement(
-	              _BottomNavigation.BottomNavigation,
-	              { selectedIndex: this.state.selectedIndex },
-	              _react2.default.createElement(_BottomNavigation.BottomNavigationItem, {
-	                label: 'Bio',
-	                icon: recentsIcon,
-	                onClick: function onClick() {
-	                  return _this2.select(0);
-	                }
-	              }),
-	              _react2.default.createElement(_BottomNavigation.BottomNavigationItem, {
-	                label: 'Work',
-	                icon: favoritesIcon,
-	                onClick: function onClick() {
-	                  return _this2.select(1);
-	                }
-	              }),
-	              _react2.default.createElement(_BottomNavigation.BottomNavigationItem, {
-	                label: 'Contact',
-	                icon: nearbyIcon,
-	                onClick: function onClick() {
-	                  return _this2.select(2);
-	                }
-	              })
-	            )
-	          )
+	          { className: 'desktop-version' },
+	          _react2.default.createElement(_bioBody2.default, null)
 	        )
 	      );
 	    }
@@ -40136,9 +40145,9 @@
 
 /***/ },
 /* 439 */
-/*!*****************************!*\
-  !*** ./client/headerBar.js ***!
-  \*****************************/
+/*!****************************!*\
+  !*** ./client/workBody.js ***!
+  \****************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -40190,13 +40199,13 @@
 	  }
 	};
 	
-	var HeaderBar = function (_Component) {
-	  _inherits(HeaderBar, _Component);
+	var WorkBody = function (_Component) {
+	  _inherits(WorkBody, _Component);
 	
-	  function HeaderBar(props) {
-	    _classCallCheck(this, HeaderBar);
+	  function WorkBody(props) {
+	    _classCallCheck(this, WorkBody);
 	
-	    var _this = _possibleConstructorReturn(this, (HeaderBar.__proto__ || Object.getPrototypeOf(HeaderBar)).call(this, props));
+	    var _this = _possibleConstructorReturn(this, (WorkBody.__proto__ || Object.getPrototypeOf(WorkBody)).call(this, props));
 	
 	    _this.handleChange = function (value) {
 	      _this.setState({
@@ -40210,7 +40219,7 @@
 	    return _this;
 	  }
 	
-	  _createClass(HeaderBar, [{
+	  _createClass(WorkBody, [{
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
@@ -40248,6 +40257,11 @@
 	                null,
 	                'Node.js, React, MongoDB, Material-UI, Express'
 	              ),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                ' In June 2016 myself and one other person received a grant to build an application for St. James Infirmary, with an MVP delivered in 5 weeks. We handled all aspects of the build from design to deploy and made deadline. This app is currently live with active users. '
+	              ),
 	              _react2.default.createElement('img', { className: 'screenshots', src: 'images/bdl.png' }),
 	              _react2.default.createElement(
 	                'a',
@@ -40275,7 +40289,7 @@
 	              _react2.default.createElement(
 	                'p',
 	                null,
-	                'This single page app was built from a boilerplate I made for public use.'
+	                'This single page app was built from a boilerplate I made for public use. I built it in part for other new devs to have a pre-configured playground to start learning React as well as a chance to dig deeper in to webpack and React-router. '
 	              ),
 	              _react2.default.createElement('img', { className: 'screenshots', src: 'images/portfolio.png' }),
 	              _react2.default.createElement(
@@ -40301,6 +40315,11 @@
 	                null,
 	                'Node.js, Vanilla JavaScript'
 	              ),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                'This is a pre JavaScript console blackjack simulation with a twist; When you run out of $ you spend your clothes.'
+	              ),
 	              _react2.default.createElement('img', { className: 'screenshots', src: 'images/blackjack.png' })
 	            )
 	          )
@@ -40309,10 +40328,10 @@
 	    }
 	  }]);
 	
-	  return HeaderBar;
+	  return WorkBody;
 	}(_react.Component);
 	
-	exports.default = HeaderBar;
+	exports.default = WorkBody;
 
 /***/ },
 /* 440 */
@@ -43297,7 +43316,8 @@
 	              'a',
 	              { href: 'mailto:Diana.Vashti@gmail.com' },
 	              'Di Vashti'
-	            )
+	            ),
+	            ' / Diana.Vashti@gmail.com'
 	          )
 	        ),
 	        _react2.default.createElement(

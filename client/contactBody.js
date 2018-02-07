@@ -11,7 +11,7 @@ export default class ContactBody extends Component {
       <div className="contact-body-container container">
         <div className="contact-body">
           <h3>
-            Send me a message: <a href="mailto:Diana.Vashti@gmail.com">Di Vashti</a>
+            Send me a message: <a href="mailto:Diana.Vashti@gmail.com">Di Vashti</a> / Diana.Vashti@gmail.com
           </h3>
         </div>
         <div className="link-icons">
