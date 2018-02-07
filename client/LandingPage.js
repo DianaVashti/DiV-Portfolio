@@ -28,7 +28,7 @@ class BottomNavigationExampleSimple extends Component {
       if(this.state.selectedIndex === 0){
         return <BioBody/>
       } else if(this.state.selectedIndex === 1){
-        return <HeaderBar/>
+        return <WorkBody/>
       } else if(this.state.selectedIndex === 2){
         return <ContactBody/>
       }
@@ -36,29 +36,34 @@ class BottomNavigationExampleSimple extends Component {
 
     return (
       <div>
-        <div className="main-body">
-          {comp()}
+        <div className="mobile-version">
+          <div className="main-body">
+            {comp()}
+          </div>
+          <div>
+            <Paper zDepth={1} className="footer">
+              <BottomNavigation selectedIndex={this.state.selectedIndex} >
+                <BottomNavigationItem
+                  label="Bio"
+                  icon={recentsIcon}
+                  onClick={() => this.select(0)}
+                />
+                <BottomNavigationItem
+                  label="Work"
+                  icon={favoritesIcon}
+                  onClick={() => this.select(1)}
+                />
+                <BottomNavigationItem
+                  label="Contact"
+                  icon={nearbyIcon}
+                  onClick={() => this.select(2)}
+                />
+              </BottomNavigation>
+            </Paper>
+          </div>
         </div>
-        <div>
-          <Paper zDepth={1} className="footer">
-            <BottomNavigation selectedIndex={this.state.selectedIndex} >
-              <BottomNavigationItem
-                label="Bio"
-                icon={recentsIcon}
-                onClick={() => this.select(0)}
-              />
-              <BottomNavigationItem
-                label="Work"
-                icon={favoritesIcon}
-                onClick={() => this.select(1)}
-              />
-              <BottomNavigationItem
-                label="Contact"
-                icon={nearbyIcon}
-                onClick={() => this.select(2)}
-              />
-            </BottomNavigation>
-          </Paper>
+        <div className="desktop-version">
+          <BioBody/>
         </div>
       </div>
     );
