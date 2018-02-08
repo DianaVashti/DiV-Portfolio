@@ -43531,7 +43531,7 @@
 	          { className: 'desktop-work container' },
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'item' },
+	            { className: 'item boilerplate' },
 	            _react2.default.createElement(
 	              'a',
 	              { href: 'http://stjamesbaddatelist.herokuapp.com/' },
@@ -43581,7 +43581,7 @@
 	          ),
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'item' },
+	            { className: 'item boilerplate' },
 	            _react2.default.createElement(
 	              'a',
 	              { href: 'https://github.com/DianaVashti/console-strip-blackjack' },

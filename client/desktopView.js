@@ -74,7 +74,7 @@ export default class DesktopView extends Component {
           </div>
         </div>
         <div className="desktop-work container">
-          <div className="item">
+          <div className="item boilerplate">
             <a href="http://stjamesbaddatelist.herokuapp.com/"> Bad Date List • Di Vashti </a>
             <p>Node.js, React, MongoDB, Material-UI, Express</p>
             <p> In June 2016 myself and one other person received a grant to build an application for St. James Infirmary, with an MVP delivered in 5 weeks. We handled all aspects of the build from design to deploy and made deadline. This app is currently live with active users. </p>
@@ -88,7 +88,7 @@ export default class DesktopView extends Component {
             <img className="screenshots" src="images/portfolio.png" />
             <a href="https://github.com/DianaVashti/DiV-Portfolio">Link to this.repo</a>
           </div>
-          <div className="item">
+          <div className="item boilerplate">
             <a href="https://github.com/DianaVashti/console-strip-blackjack"> Strip BlackJack • Di Vashti </a>
             <p>Node.js, Vanilla JavaScript</p>
             <p>This is a pure JavaScript console blackjack simulation with a twist; When you run out of $ you spend your clothes.</p>
