@@ -21,6 +21,13 @@ body {
   background-repeat: no-repeat;
 }
 
+.big-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .bio-body-right {
   color: #303030;
 }

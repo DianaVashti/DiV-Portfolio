@@ -43382,7 +43382,7 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        null,
+	        { className: 'big-container' },
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'bio-body-container container' },

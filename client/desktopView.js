@@ -10,7 +10,7 @@ export default class DesktopView extends Component {
 
   render(){
     return(
-      <div>
+      <div className="big-container">
         <div className="bio-body-container container">
           <div className="bio-body-title">
             <p> Hi, I'm Di. </p>
