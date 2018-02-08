@@ -7,6 +7,7 @@ import Paper from 'material-ui/Paper';
 import BioBody from './bioBody';
 import WorkBody from './workBody';
 import ContactBody from './contactBody'
+import DesktopView from './desktopView'
 const recentsIcon = <FontIcon className="material-icons">gamepad</FontIcon>;
 const favoritesIcon = <FontIcon className="material-icons">brush</FontIcon>;
 const nearbyIcon = <FontIcon className="material-icons">chat</FontIcon>;
@@ -63,7 +64,7 @@ class BottomNavigationExampleSimple extends Component {
           </div>
         </div>
         <div className="desktop-version">
-          <BioBody/>
+          <DesktopView />
         </div>
       </div>
     );

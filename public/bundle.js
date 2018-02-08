@@ -35910,6 +35910,10 @@
 	
 	var _contactBody2 = _interopRequireDefault(_contactBody);
 	
+	var _desktopView = __webpack_require__(/*! ./desktopView */ 478);
+	
+	var _desktopView2 = _interopRequireDefault(_desktopView);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -36015,7 +36019,7 @@
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'desktop-version' },
-	          _react2.default.createElement(_bioBody2.default, null)
+	          _react2.default.createElement(_desktopView2.default, null)
 	        )
 	      );
 	    }
@@ -40131,16 +40135,6 @@
 	  return BioBody;
 	}(_react.Component);
 	
-	// <div>
-	//   <a href="https://github.com/DianaVashti">
-	//     <img src="images/octocat.png" height="42" width="42"/>
-	//   </a>
-	//   <a href="https://www.linkedin.com/in/diana-vashti-633b48135/">
-	//     <img src="images/linkedin.png" height="47" width="47"/>
-	//   </a>
-	// </div>
-	
-	
 	exports.default = BioBody;
 
 /***/ },
@@ -43342,6 +43336,307 @@
 	}(_react.Component);
 	
 	exports.default = ContactBody;
+
+/***/ },
+/* 478 */
+/*!*******************************!*\
+  !*** ./client/desktopView.js ***!
+  \*******************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _propTypes = __webpack_require__(/*! prop-types */ 37);
+	
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var DesktopView = function (_Component) {
+	  _inherits(DesktopView, _Component);
+	
+	  function DesktopView(props) {
+	    _classCallCheck(this, DesktopView);
+	
+	    return _possibleConstructorReturn(this, (DesktopView.__proto__ || Object.getPrototypeOf(DesktopView)).call(this, props));
+	  }
+	
+	  _createClass(DesktopView, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'bio-body-container container' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'bio-body-title' },
+	            _react2.default.createElement(
+	              'p',
+	              null,
+	              ' Hi, I\'m Di. '
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'link-icons' },
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'https://github.com/DianaVashti' },
+	                _react2.default.createElement('img', { src: 'images/octocat.png', height: '75', width: '75' })
+	              ),
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'https://www.linkedin.com/in/diana-vashti-633b48135/' },
+	                _react2.default.createElement('img', { src: 'images/linkedin.png', height: '80', width: '80' })
+	              )
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'bio-body' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'bio-body-left' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'Avatar' },
+	                _react2.default.createElement('img', { className: 'Avatari', src: 'images/IloveThisPic.jpg' })
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'lefty' },
+	                _react2.default.createElement(
+	                  'p',
+	                  null,
+	                  ' I am a carbon-based Earth-imprisoned femme-forward lifeform. '
+	                ),
+	                _react2.default.createElement(
+	                  'p',
+	                  null,
+	                  'Lvl. 11 Software Sorceress, Druid of Data Divination, Back-end Node.js Bard, Algorithm Alchemist, React.js Rogue'
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'bio-body-right' },
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                'React.js Developer - Full-Stack Web Developer - Junior Software Engineer :'
+	              ),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                'Hi, I\'m Di, and I like to build, create, upgrade, and debug. This applies to both my code and my life. I have a lot of interests: Playing music (guitar mostly), writing, reading, playing with legos, solving algorithms, exploring beautiful California, playing games of all sorts, and for the last couple years, designing and building software.'
+	              ),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                'I have just shy of 2 years of experience working with Node.js and many of it\'s hottest new technologies. A few I have particularly significant experience working with are:',
+	                _react2.default.createElement('br', null),
+	                _react2.default.createElement(
+	                  'ul',
+	                  null,
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'React'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'PostgreSQL'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'MongoDB'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'Express'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'Webpack'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'Mocha / Chai'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'Socket.io'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'Knex / Sequelize'
+	                  )
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                'I also am quite comfortable with HTML5 and CSS3 as well as Pug/Jade and both MaterialUI and Skeleton CSS frameworks.'
+	              ),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                'Majority of the applications I have contributed too have been built on the MERN stack (MongoDB, Express, React, Node) and I especially love building with React.'
+	              ),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                'I currently teach Full-Stack Node.js Web-Development at Learners Guild, a 10-month un-bootcamp but am interested in new and challenging opportunities to build tech with other smart and diligent awesome humans.'
+	              ),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                'Please reach out to me if you are potentially interested in working with me.'
+	              ),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                'Let\'s ship some awesome code that makes users love us!'
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'desktop-work container' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'item' },
+	            _react2.default.createElement(
+	              'a',
+	              { href: 'http://stjamesbaddatelist.herokuapp.com/' },
+	              ' Bad Date List \u2022 Di Vashti '
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              null,
+	              'Node.js, React, MongoDB, Material-UI, Express'
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              null,
+	              ' In June 2016 myself and one other person received a grant to build an application for St. James Infirmary, with an MVP delivered in 5 weeks. We handled all aspects of the build from design to deploy and made deadline. This app is currently live with active users. '
+	            ),
+	            _react2.default.createElement('img', { className: 'screenshots', src: 'images/bdl.png' }),
+	            _react2.default.createElement(
+	              'a',
+	              { href: 'https://github.com/DianaVashti/BDL-DEV-Client/' },
+	              'Link to Client Repo'
+	            ),
+	            _react2.default.createElement(
+	              'a',
+	              { href: 'https://github.com/DianaVashti/sji-bdl-api' },
+	              'Link to API Repo'
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'item boilerplate' },
+	            _react2.default.createElement(
+	              'a',
+	              { href: 'https://github.com/DianaVashti/react-webpack-materialui-boilerplate' },
+	              ' Boilerplate \u2022 Di Vashti '
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              null,
+	              'This single page app was built from a boilerplate I made for public use. I built it in part for other new devs to have a pre-configured playground to start learning React as well as a chance to dig deeper in to webpack and React-router. '
+	            ),
+	            _react2.default.createElement('img', { className: 'screenshots', src: 'images/portfolio.png' }),
+	            _react2.default.createElement(
+	              'a',
+	              { href: 'https://github.com/DianaVashti/DiV-Portfolio' },
+	              'Link to this.repo'
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'item' },
+	            _react2.default.createElement(
+	              'a',
+	              { href: 'https://github.com/DianaVashti/console-strip-blackjack' },
+	              ' Strip BlackJack \u2022 Di Vashti '
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              null,
+	              'Node.js, Vanilla JavaScript'
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              null,
+	              'This is a pure JavaScript console blackjack simulation with a twist; When you run out of $ you spend your clothes.'
+	            ),
+	            _react2.default.createElement('img', { className: 'screenshots', src: 'images/blackjack.png' })
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          null,
+	          _react2.default.createElement(
+	            'h3',
+	            null,
+	            'Send me a message: ',
+	            _react2.default.createElement(
+	              'a',
+	              { href: 'mailto:Diana.Vashti@gmail.com' },
+	              'Di Vashti'
+	            ),
+	            ' / Diana.Vashti@gmail.com'
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'link-icons' },
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://github.com/DianaVashti' },
+	            _react2.default.createElement('img', { src: 'images/octocat.png', height: '75', width: '75' })
+	          ),
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://www.linkedin.com/in/diana-vashti-633b48135/' },
+	            _react2.default.createElement('img', { src: 'images/linkedin.png', height: '80', width: '80' })
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return DesktopView;
+	}(_react.Component);
+	
+	exports.default = DesktopView;
 
 /***/ }
 /******/ ]);
