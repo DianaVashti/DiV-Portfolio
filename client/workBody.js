@@ -71,7 +71,7 @@ export default class WorkBody extends Component {
             <div className="item">
               <a href="https://github.com/DianaVashti/console-strip-blackjack"> Strip BlackJack • Di Vashti </a>
               <p>Node.js, Vanilla JavaScript</p>
-              <p>This is a pre JavaScript console blackjack simulation with a twist; When you run out of $ you spend your clothes.</p>
+              <p>This is a pure JavaScript console blackjack simulation with a twist; When you run out of $ you spend your clothes.</p>
               <img className="screenshots" src="images/blackjack.png" />
             </div>
           </div>

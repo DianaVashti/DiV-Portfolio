@@ -40318,7 +40318,7 @@
 	              _react2.default.createElement(
 	                'p',
 	                null,
-	                'This is a pre JavaScript console blackjack simulation with a twist; When you run out of $ you spend your clothes.'
+	                'This is a pure JavaScript console blackjack simulation with a twist; When you run out of $ you spend your clothes.'
 	              ),
 	              _react2.default.createElement('img', { className: 'screenshots', src: 'images/blackjack.png' })
 	            )
