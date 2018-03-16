@@ -40015,12 +40015,12 @@
 	              _react2.default.createElement(
 	                'p',
 	                null,
-	                ' I am a carbon-based Earth-imprisoned femme-forward lifeform. '
+	                'Multi-Class Human; Software Engineer'
 	              ),
 	              _react2.default.createElement(
 	                'p',
 	                null,
-	                'Lvl. 11 Software Sorceress, Druid of Data Divination, Back-end Node.js Bard, Algorithm Alchemist, React.js Rogue'
+	                'Lvl. 11: Software Sorceress, Druid of Data Divination, Back-end Node.js Bard, Algorithm Alchemist, React.js Rogue.'
 	              )
 	            )
 	          ),
@@ -40030,17 +40030,12 @@
 	            _react2.default.createElement(
 	              'p',
 	              null,
-	              'React.js Developer - Full-Stack Web Developer - Junior Software Engineer :'
-	            ),
-	            _react2.default.createElement(
-	              'p',
-	              null,
 	              'Hi, I\'m Di, and I like to build, create, upgrade, and debug. This applies to both my code and my life. I have a lot of interests: Playing music (guitar mostly), writing, reading, playing with legos, solving algorithms, exploring beautiful California, playing games of all sorts, and for the last couple years, designing and building software.'
 	            ),
 	            _react2.default.createElement(
 	              'p',
 	              null,
-	              'I have just shy of 2 years of experience working with Node.js and many of it\'s hottest new technologies. A few I have particularly significant experience working with are:',
+	              'I have 2 years of experience working with Node.js and many of it\'s hottest new technologies. A few I have particularly significant experience working with are:',
 	              _react2.default.createElement('br', null),
 	              _react2.default.createElement(
 	                'ul',
@@ -40049,6 +40044,11 @@
 	                  'li',
 	                  null,
 	                  'React'
+	                ),
+	                _react2.default.createElement(
+	                  'li',
+	                  null,
+	                  'Redux'
 	                ),
 	                _react2.default.createElement(
 	                  'li',
@@ -40078,19 +40078,9 @@
 	                _react2.default.createElement(
 	                  'li',
 	                  null,
-	                  'Socket.io'
-	                ),
-	                _react2.default.createElement(
-	                  'li',
-	                  null,
 	                  'Knex / Sequelize'
 	                )
 	              )
-	            ),
-	            _react2.default.createElement(
-	              'p',
-	              null,
-	              'I also am quite comfortable with HTML5 and CSS3 as well as Pug/Jade and both MaterialUI and Skeleton CSS frameworks.'
 	            ),
 	            _react2.default.createElement(
 	              'p',
@@ -40105,7 +40095,7 @@
 	            _react2.default.createElement(
 	              'p',
 	              null,
-	              'Please reach out to me if you are potentially interested in working with me.'
+	              'Please reach out to me if you are interested in working with me.'
 	            ),
 	            _react2.default.createElement(
 	              'p',
@@ -40254,7 +40244,7 @@
 	              _react2.default.createElement(
 	                'p',
 	                null,
-	                ' In June 2016 myself and one other person received a grant to build an application for St. James Infirmary, with an MVP delivered in 5 weeks. We handled all aspects of the build from design to deploy and made deadline. This app is currently live with active users. '
+	                ' In June 2017 myself and one other person received a grant to build an application for St. James Infirmary, with an MVP delivered in 5 weeks. We handled all aspects of the build from design to deploy and made deadline. This app is currently live with active users. '
 	              ),
 	              _react2.default.createElement('img', { className: 'screenshots', src: 'images/bdl.png' }),
 	              _react2.default.createElement(
@@ -43393,20 +43383,6 @@
 	              'p',
 	              null,
 	              ' Hi, I\'m Di. '
-	            ),
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'link-icons' },
-	              _react2.default.createElement(
-	                'a',
-	                { href: 'https://github.com/DianaVashti' },
-	                _react2.default.createElement('img', { src: 'images/octocat.png', height: '75', width: '75' })
-	              ),
-	              _react2.default.createElement(
-	                'a',
-	                { href: 'https://www.linkedin.com/in/diana-vashti-633b48135/' },
-	                _react2.default.createElement('img', { src: 'images/linkedin.png', height: '80', width: '80' })
-	              )
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -43426,12 +43402,12 @@
 	                _react2.default.createElement(
 	                  'p',
 	                  null,
-	                  ' I am a carbon-based Earth-imprisoned femme-forward lifeform. '
+	                  'Multi-Class Human; Software Engineer'
 	                ),
 	                _react2.default.createElement(
 	                  'p',
 	                  null,
-	                  'Lvl. 11 Software Sorceress, Druid of Data Divination, Back-end Node.js Bard, Algorithm Alchemist, React.js Rogue'
+	                  'Lvl. 11: Software Sorceress, Druid of Data Divination, Back-end Node.js Bard, Algorithm Alchemist, React.js Rogue.'
 	                )
 	              )
 	            ),
@@ -43441,17 +43417,12 @@
 	              _react2.default.createElement(
 	                'p',
 	                null,
-	                'React.js Developer - Full-Stack Web Developer - Junior Software Engineer :'
-	              ),
-	              _react2.default.createElement(
-	                'p',
-	                null,
 	                'Hi, I\'m Di, and I like to build, create, upgrade, and debug. This applies to both my code and my life. I have a lot of interests: Playing music (guitar mostly), writing, reading, playing with legos, solving algorithms, exploring beautiful California, playing games of all sorts, and for the last couple years, designing and building software.'
 	              ),
 	              _react2.default.createElement(
 	                'p',
 	                null,
-	                'I have just shy of 2 years of experience working with Node.js and many of it\'s hottest new technologies. A few I have particularly significant experience working with are:',
+	                'I have 2 years of experience working with Node.js and many of it\'s hottest new technologies. A few I have particularly significant experience working with are:',
 	                _react2.default.createElement('br', null),
 	                _react2.default.createElement(
 	                  'ul',
@@ -43460,6 +43431,11 @@
 	                    'li',
 	                    null,
 	                    'React'
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    'Redux'
 	                  ),
 	                  _react2.default.createElement(
 	                    'li',
@@ -43489,19 +43465,9 @@
 	                  _react2.default.createElement(
 	                    'li',
 	                    null,
-	                    'Socket.io'
-	                  ),
-	                  _react2.default.createElement(
-	                    'li',
-	                    null,
 	                    'Knex / Sequelize'
 	                  )
 	                )
-	              ),
-	              _react2.default.createElement(
-	                'p',
-	                null,
-	                'I also am quite comfortable with HTML5 and CSS3 as well as Pug/Jade and both MaterialUI and Skeleton CSS frameworks.'
 	              ),
 	              _react2.default.createElement(
 	                'p',
@@ -43516,13 +43482,27 @@
 	              _react2.default.createElement(
 	                'p',
 	                null,
-	                'Please reach out to me if you are potentially interested in working with me.'
+	                'Please reach out to me if you are interested in working with me.'
 	              ),
 	              _react2.default.createElement(
 	                'p',
 	                null,
 	                'Let\'s ship some awesome code that makes users love us!'
 	              )
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'link-icons' },
+	            _react2.default.createElement(
+	              'a',
+	              { href: 'https://github.com/DianaVashti' },
+	              _react2.default.createElement('img', { src: 'images/octocat.png', height: '75', width: '75' })
+	            ),
+	            _react2.default.createElement(
+	              'a',
+	              { href: 'https://www.linkedin.com/in/diana-vashti-633b48135/' },
+	              _react2.default.createElement('img', { src: 'images/linkedin.png', height: '80', width: '80' })
 	            )
 	          )
 	        ),
@@ -43545,7 +43525,7 @@
 	            _react2.default.createElement(
 	              'p',
 	              null,
-	              ' In June 2016 myself and one other person received a grant to build an application for St. James Infirmary, with an MVP delivered in 5 weeks. We handled all aspects of the build from design to deploy and made deadline. This app is currently live with active users. '
+	              ' In June 2017 myself and one other person received a grant to build an application for St. James Infirmary, with an MVP delivered in 5 weeks. We handled all aspects of the build from design to deploy and made deadline. This app is currently live with active users. '
 	            ),
 	            _react2.default.createElement('img', { className: 'screenshots', src: 'images/bdl.png' }),
 	            _react2.default.createElement(
