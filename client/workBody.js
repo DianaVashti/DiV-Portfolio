@@ -53,7 +53,7 @@ export default class WorkBody extends Component {
           <div className="item">
             <a href="http://stjamesbaddatelist.herokuapp.com/"> Bad Date List • Di Vashti </a>
             <p>Node.js, React, MongoDB, Material-UI, Express</p>
-            <p> In June 2016 myself and one other person received a grant to build an application for St. James Infirmary, with an MVP delivered in 5 weeks. We handled all aspects of the build from design to deploy and made deadline. This app is currently live with active users. </p>
+            <p> In June 2017 myself and one other person received a grant to build an application for St. James Infirmary, with an MVP delivered in 5 weeks. We handled all aspects of the build from design to deploy and made deadline. This app is currently live with active users. </p>
             <img className="screenshots" src="images/bdl.png" />
             <a href="https://github.com/DianaVashti/BDL-DEV-Client/">Link to Client Repo</a>
             <a href="https://github.com/DianaVashti/sji-bdl-api">Link to API Repo</a>
