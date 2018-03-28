@@ -40035,7 +40035,7 @@
 	            _react2.default.createElement(
 	              'p',
 	              null,
-	              'I have 2 years of experience working with Node.js and many of it\'s hottest new technologies. A few I have particularly significant experience working with are:',
+	              'I have ~4 years of experience working with Node.js and many of it\'s hottest new technologies. A few I have particularly significant experience working with are:',
 	              _react2.default.createElement('br', null),
 	              _react2.default.createElement(
 	                'ul',
@@ -43422,7 +43422,7 @@
 	              _react2.default.createElement(
 	                'p',
 	                null,
-	                'I have 2 years of experience working with Node.js and many of it\'s hottest new technologies. A few I have particularly significant experience working with are:',
+	                'I have ~4 years of experience working with Node.js and many of it\'s hottest new technologies. A few I have particularly significant experience working with are:',
 	                _react2.default.createElement('br', null),
 	                _react2.default.createElement(
 	                  'ul',

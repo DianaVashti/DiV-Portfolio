@@ -29,7 +29,7 @@ export default class BioBody extends Component {
               Hi, I'm Di, and I like to build, create, upgrade, and debug. This applies to both my code and my life. I have a lot of interests: Playing music (guitar mostly), writing, reading, playing with legos, solving algorithms, exploring beautiful California, playing games of all sorts, and for the last couple years, designing and building software.
             </p>
             <p>
-              I have 2 years of experience working with Node.js and many of it's hottest new technologies. A few I have particularly significant experience working with are:<br/>
+              I have ~4 years of experience working with Node.js and many of it's hottest new technologies. A few I have particularly significant experience working with are:<br/>
               <ul>
                 <li>React</li>
                 <li>Redux</li>
